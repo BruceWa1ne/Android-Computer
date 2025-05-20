@@ -1,0 +1,25 @@
+{
+  "name": "串口插件(支持多设备)",
+  "id": "XM-Serial",
+  "version": "v1.0.2020.11.13",
+  "description": "原生串口插件，支持多设备同时使用[小明出品]",
+  "_dp_type": "nativeplugin",
+  "_dp_nativeplugin": {
+    "android": {
+      "plugins": [
+        {
+          "type": "module",
+          "name": "XM-Serial",
+          "class": "com.xiaoming.plugin.multi_serial.SerialModule"
+        }
+      ],
+      "integrateType": "aar",
+      "abis": [
+        "x86",
+        "armeabi",
+        "armeabi-v7a"
+      ],
+      "minSdkVersion": "19"
+    }
+  }
+}

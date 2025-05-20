@@ -1,0 +1,25 @@
+---
+trigger: model_decision
+description: Project development description
+globs: 
+---
+
+# Project introduction
+
+## Technology stack
+- Vue 3
+- TypeScript
+- Pinia
+- UnoCSS
+- uni-app (The Android end of uni-app)
+
+## UI and Styling
+- Use UnoCSS for utility-first styling; follow a mobile-first approach.
+- Implement responsive design with UnoCSS and PostCSS plugins.
+- Use wot-design-uni and z-paging for UI components. 
+- wot-design-uni, Document address: (https://wot-design-uni.cn/)
+- z-paging, Document address: (https://z-paging.zxlee.cn/)
+
+## Matters needing attention
+- This is an Android industrial control screen based on Uniapp
+- Using modbusRTU non-standard protocol serial communication, there is no http, all data parsing transmission is local

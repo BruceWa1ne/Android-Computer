@@ -1,0 +1,61 @@
+.common-border {
+  background: url('/static/frame/common-border.png');
+  background-size: 100% 100%;
+}
+
+.onetouch-btn {
+  background: url('/static/frame/control-btn.png');
+  background-size: 100% 100%;
+}
+
+.detail-title {
+  background: url('/static/frame/detail-title.png');
+  background-size: 100% 100%;
+}
+
+.failure-btn {
+  background: url('/static/frame/failure-btn.png');
+  background-size: 100% 100%;
+}
+
+.transmission-btn {
+  background: url('/static/frame/transmission-btn.png');
+  background-size: 100% 100%;
+}
+
+.refresh-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  font-size: 20px;
+  color: #ffffff;
+  background: rgba(0, 149, 255, 0.3);
+  border: 1px solid rgba(64, 158, 255, 0.5);
+  border-radius: 50%;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: rgba(0, 149, 255, 0.4);
+    box-shadow: 0 2px 8px rgba(0, 149, 255, 0.3);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+
+  &.rotating {
+    animation: spin 1s linear infinite;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

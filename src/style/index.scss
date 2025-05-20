@@ -1,0 +1,20 @@
+// @import './iconfont.css';
+@import './font';
+@import './common';
+
+.success-status {
+  color: #00ffcc;
+}
+
+.error-status {
+  color: #ff4200;
+}
+
+:root,
+page {
+  // 修改按主题色
+  // --wot-color-theme: #37c2bc;
+
+  // 修改按钮背景色
+  // --wot-button-primary-bg-color: green;
+}

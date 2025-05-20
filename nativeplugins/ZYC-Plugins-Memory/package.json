@@ -1,0 +1,20 @@
+{
+  "name": "安卓设备内存信息",
+  "id": "ZYC-Plugins-Memory",
+  "version": "v1.0.0",
+  "description": "获取安卓设备内存信息 [by Stephenzhou]",
+  "_dp_type": "nativeplugin",
+  "_dp_nativeplugin": {
+    "android": {
+      "plugins": [
+        {
+          "type": "module",
+          "name": "ZYC-Plugins-Memory",
+          "class": "com.stephen.plugin.android_memory.AndroidMemoryModules"
+        }
+      ],
+      "integrateType": "aar",
+      "minSdkVersion": 25
+    }
+  }
+}
